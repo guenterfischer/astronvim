@@ -13,6 +13,7 @@ return {
     shiftwidth = 2,         -- sets vim.opt.shiftwidth
     expandtab = true,       -- sets vim.opt.expandtab
     autoindent = true,      -- sets vim.opt.autoindent
+    shell = "/usr/bin/bash" -- sets vim.opt.shell
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader
