@@ -23,6 +23,6 @@ return {
   },
   t = {
     -- setting a mapping to false will disable it
-    -- ["<esc>"] = false,
+    ["<esc>"] = { "<C-\\><C-n>", desc = "Switch to normal mode" }
   },
 }
